@@ -148,7 +148,7 @@ import io
 # PAGE CONFIG
 # -----------------------------
 st.set_page_config(
-    page_title="YOLO Detection",
+    page_title="Image Detection",
     page_icon="🤖",
     layout="centered"
 )
@@ -192,7 +192,7 @@ st.caption("Upload image for object detection")
 # -----------------------------
 # LOAD MODEL
 # -----------------------------
-model = YOLO("runs/detect/train-9/weights/best.pt")
+model = YOLO("runs/detect/train-11/weights/best.pt")
 
 # -----------------------------
 # AREA FUNCTION
