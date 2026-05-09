@@ -6,7 +6,7 @@ import io
 
 app = FastAPI()
 
-model = YOLO("runs/detect/train-7/weights/best.pt")  # your trained model
+model = YOLO("runs/detect/train-8/weights/best.pt")  # your trained model
 
 
 def calculate_area(box, img_width, img_height):
