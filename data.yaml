@@ -1,0 +1,20 @@
+path: D:/Anas Hussain/Anas-Personal/Projects/Python/YOLO/shelf_app_3/dataset
+train: images/train
+val: images/val
+
+names:
+  0: youngs mayonnaise
+  1: youngs chicken spread
+  2: youngs orla oil
+  3: dairy life butter
+  4: dairylife cheese
+  5: youngs fajita
+  6: youngs sandwich spread
+  7: youngs real mayonnaise
+  8: youngs olive oil
+  9: other mayonnaise
+  10: dairylife maska
+  11: other oil
+  12: other butter
+  13: youngs chocobliss
+  14: other chocobliss
