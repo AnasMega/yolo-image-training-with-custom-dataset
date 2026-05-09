@@ -1,6 +1,7 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")  # small model for small dataset
+model = YOLO("yolo11n.pt")
+#model = YOLO("yolov8n.pt")  # small model for small dataset
 
 model.train(
     data="data.yaml",
