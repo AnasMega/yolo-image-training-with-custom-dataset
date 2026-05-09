@@ -1,4 +1,4 @@
-# AI Detection Service using YOLOv8, YOLOv11 & YOLOv12
+# AI Detection Service using YOLOv8, YOLOv11 & YOLOv12 with Custom Dataset
 
 Developed by: **Anas Hussain (Mr Rumi)**
 
