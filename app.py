@@ -365,7 +365,7 @@ st.caption("Upload an image to detect shelf products category-wise")
 # -----------------------------
 # LOAD YOLO MODEL
 # -----------------------------
-model = YOLO("runs/detect/train-13/weights/best.pt")
+model = YOLO("runs/detect/train-16/weights/best.pt")
 
 # -----------------------------
 # AREA FUNCTION
