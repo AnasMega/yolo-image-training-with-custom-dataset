@@ -5,6 +5,7 @@ import pandas as pd
 import io
 import plotly.express as px
 import numpy as np
+import os
 
 # -----------------------------
 # PAGE CONFIG
@@ -48,10 +49,16 @@ EYE_LEVEL_MAX = st.sidebar.slider(
     value=8
 )
 
+MODEL_PATH = "runs/detect/train3/weights/best.pt"
+
+if not os.path.exists(MODEL_PATH):
+    MODEL_PATH = "yolo11n.pt"  # fallback pretrained model
+
+model = YOLO(MODEL_PATH)
 # -----------------------------
 # LOAD MODEL
 # -----------------------------
-model = YOLO("runs/detect/train3/weights/best.pt")
+# model = YOLO("runs/detect/train3/weights/best.pt")
 
 # -----------------------------
 # FILE UPLOAD
