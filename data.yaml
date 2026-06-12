@@ -1,4 +1,4 @@
-path: D:/Anas Hussain/Anas-Personal/Projects/Python/YOLO/shelf_app_3/dataset
+path: F:/Anas-Hussain/YPL-Projects/Projects/yolo-working/Projects/yolo-image-training-with-custom-dataset
 train: images/train
 val: images/val
 

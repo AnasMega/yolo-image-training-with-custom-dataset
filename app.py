@@ -1359,7 +1359,7 @@ st.caption("AI-powered Retail Intelligence using YOLO + Shelf Analytics")
 # -----------------------------
 # LOAD MODEL
 # -----------------------------
-model = YOLO("runs/detect/train-22/weights/best.pt")
+model = YOLO("runs/detect/train-25/weights/best.pt")
 
 # -----------------------------
 # FILE UPLOAD
@@ -1519,21 +1519,21 @@ if uploaded_file:
         # -----------------------------
         # INSIGHT
         # -----------------------------
-        st.markdown("## 📊 Shelf Insight")
+        # st.markdown("## 📊 Shelf Insight")
 
-        if width_util > 80:
-            st.error("⚠ Shelf width heavily crowded")
-        elif width_util > 50:
-            st.warning("Moderate width usage")
-        else:
-            st.success("Good width spacing")
+        # if width_util > 80:
+        #     st.error("⚠ Shelf width heavily crowded")
+        # elif width_util > 50:
+        #     st.warning("Moderate width usage")
+        # else:
+        #     st.success("Good width spacing")
 
-        if height_util > 80:
-            st.error("⚠ Shelf height over-utilized")
-        elif height_util > 50:
-            st.warning("Moderate height usage")
-        else:
-            st.success("Good vertical spacing")
+        # if height_util > 80:
+        #     st.error("⚠ Shelf height over-utilized")
+        # elif height_util > 50:
+        #     st.warning("Moderate height usage")
+        # else:
+        #     st.success("Good vertical spacing")
 
         # -----------------------------
         # ANALYTICS
