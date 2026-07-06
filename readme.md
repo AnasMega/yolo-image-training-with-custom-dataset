@@ -92,3 +92,6 @@ Anas Hussain (Mr Rumi) AI Developer/Engineer | Computer Data/Vision Engineer | T
 
 License
 This project is open-source and available for research and development purposes.
+
+Run app :  python -m streamlit run dashboard.py
+current model : train-25
