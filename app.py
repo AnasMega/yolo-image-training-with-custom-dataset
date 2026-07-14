@@ -1359,8 +1359,8 @@ st.caption("AI-powered Retail Intelligence using YOLO + Shelf Analytics")
 # -----------------------------
 # LOAD MODEL
 # -----------------------------
-model = YOLO("runs/detect/train-25/weights/best.pt")
-
+# model = YOLO("runs/detect/train-25/weights/best.pt")
+model = YOLO("runs/detect/train-33/weights/best.pt") # new trained modal to be test
 # -----------------------------
 # FILE UPLOAD
 # -----------------------------

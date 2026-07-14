@@ -1,5 +1,5 @@
 AI Detection Service using YOLOv8, YOLOv11 & YOLOv12
-Developed by: Anas Hussain (Mr Rumi)
+ 
 
 Overview
 This project is an AI-powered object detection service built with Python, FastAPI, and multiple YOLO models including:
