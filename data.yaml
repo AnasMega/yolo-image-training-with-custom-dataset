@@ -1,4 +1,6 @@
-path: F:/Anas-Hussain/YPL-Projects/Projects/yolo-working/Projects/yolo-image-training-with-custom-dataset
+path: F:/Anas-Hussain/YPL-Projects/Projects/yolo-working/Projects/yolo-image-training-with-custom-dataset  #for local
+# path: /content/drive/MyDrive/Colab_Notebooks/ShelfDetection for collab
+
 train: images/train
 val: images/val
 
@@ -11,7 +13,7 @@ names:
   5: youngs fajita
   6: youngs sandwich spread
   7: youngs real mayonnaise
-  8: youngs olive oil
+  8: youngs olive oil make
   9: other mayonnaise
   10: dairylife maska
   11: other oil

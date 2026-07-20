@@ -88,7 +88,7 @@ Model comparison dashboard
 Multi-class analytics
 Cloud deployment
 Author
-Anas Hussain (Mr Rumi) AI Developer/Engineer | Computer Data/Vision Engineer | Team Lead Software Engineering Linkedin: https://www.linkedin.com/in/anas-hussain-00b658180?originalSubdomain=pk
+Anas Hussain   AI Developer/Engineer | Computer Data/Vision Engineer | Team Lead Software Engineering Linkedin: https://www.linkedin.com/in/anas-hussain-00b658180?originalSubdomain=pk
 
 License
 This project is open-source and available for research and development purposes.
